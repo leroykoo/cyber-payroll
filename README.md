@@ -59,6 +59,37 @@ AI 可用于理解 Excel 结构、辅助生成计算逻辑、提出修复建议�
 5. **数据导入**：检查 Excel 结构，导入已确认的数据文件。
 6. **历史 / 审计**：查看核算运行、配置版本、导入批次和操作记录。
 
+## 界面预览
+
+以下截图展示了 Cyber Payroll 从组织总览、输出目标确认、数据表结构设计，到核算逻辑配置、真实数据导入和系统设置的主要界面。截图中的组织名称和内容仅用于界面展示，不代表项目内置的生产数据。
+
+<table>
+  <tr>
+    <td width="50%"><img src="screenshots/01-overview.png" alt="组织总览" /></td>
+    <td width="50%"><img src="screenshots/02-output-target.png" alt="输出目标" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>组织总览</strong><br />查看组织状态、数据与核算关系，并进行数据答疑。</td>
+    <td align="center"><strong>输出目标</strong><br />确认输出字段、字段顺序和最终结果表结构。</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="screenshots/03-data-schema.png" alt="数据表结构" /></td>
+    <td width="50%"><img src="screenshots/04-calculation-logic.png" alt="核算逻辑配置" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>数据</strong><br />解析并确认 Excel 数据源表、字段、类型、映射和主键。</td>
+    <td align="center"><strong>核算逻辑配置</strong><br />管理法定计算逻辑、临时字段、全局逻辑和单表逻辑。</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="screenshots/05-data-import.png" alt="数据导入" /></td>
+    <td width="50%"><img src="screenshots/06-settings.png" alt="系统设置" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>数据导入</strong><br />通过 Schema 一致性校验后，由本地 Python 导入真实业务数据。</td>
+    <td align="center"><strong>系统设置</strong><br />配置 AI 服务和本地真实数据导入限制。</td>
+  </tr>
+</table>
+
 ## 技术结构
 
 - **前端**：React、Vite、`lucide-react`、`xlsx`

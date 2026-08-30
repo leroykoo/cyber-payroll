@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "attendance_mode": "custom",
+  "shift_field": "employee_master.shift_type",
+  "months": [
+    { "year": 2026, "month": 1, "calendar_days": 31, "double_rest_work_days": 22, "single_rest_work_days": 26, "notes": "元旦假期及周日补班" },
+    { "year": 2026, "month": 2, "calendar_days": 28, "double_rest_work_days": 17, "single_rest_work_days": 21, "notes": "春节假期及周末补班" },
+    { "year": 2026, "month": 3, "calendar_days": 31, "double_rest_work_days": 22, "single_rest_work_days": 26, "notes": "无节假日" },
+    { "year": 2026, "month": 4, "calendar_days": 30, "double_rest_work_days": 22, "single_rest_work_days": 25, "notes": "清明假期" },
+    { "year": 2026, "month": 5, "calendar_days": 31, "double_rest_work_days": 20, "single_rest_work_days": 25, "notes": "劳动节假期及周六补班" },
+    { "year": 2026, "month": 6, "calendar_days": 30, "double_rest_work_days": 22, "single_rest_work_days": 25, "notes": "端午假期" },
+    { "year": 2026, "month": 7, "calendar_days": 31, "double_rest_work_days": 23, "single_rest_work_days": 27, "notes": "无节假日" },
+    { "year": 2026, "month": 8, "calendar_days": 31, "double_rest_work_days": 21, "single_rest_work_days": 26, "notes": "无节假日" },
+    { "year": 2026, "month": 9, "calendar_days": 30, "double_rest_work_days": 22, "single_rest_work_days": 25, "notes": "中秋假期及周日补班" },
+    { "year": 2026, "month": 10, "calendar_days": 31, "double_rest_work_days": 20, "single_rest_work_days": 25, "notes": "国庆假期及周六补班" },
+    { "year": 2026, "month": 11, "calendar_days": 30, "double_rest_work_days": 21, "single_rest_work_days": 25, "notes": "无节假日" },
+    { "year": 2026, "month": 12, "calendar_days": 31, "double_rest_work_days": 23, "single_rest_work_days": 27, "notes": "无节假日" }
+  ]
+}

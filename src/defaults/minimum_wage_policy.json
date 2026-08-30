@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "net_income_field": "net_pay_after_tax",
+  "absence_days_field": "employee_master.absence_days",
+  "standard_work_days_field": "employee_master.standard_work_days",
+  "rule": {
+    "city": "上海",
+    "monthly_minimum_wage": 2740,
+    "full_attendance_floor_ratio": 1,
+    "absence_floor_mode": "pro_rata",
+    "sick_leave_floor_ratios": {
+      "within_6_months": 0.8,
+      "over_6_months": 0.6
+    }
+  }
+}

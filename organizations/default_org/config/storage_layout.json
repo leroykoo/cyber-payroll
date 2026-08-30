@@ -1,0 +1,7 @@
+{
+  "layout_version": 2,
+  "configuration_database": "organizations/default_org/databases/configuration.db",
+  "business_database": "organizations/default_org/databases/business_data.db",
+  "legacy_backup": "organizations/default_org/databases/legacy_organization.db",
+  "migrated_at": "2026-08-29T03:18:06.826658+00:00"
+}

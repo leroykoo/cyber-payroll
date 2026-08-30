@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "holidays": [
+    { "year": 2026, "date": "1月1日", "multiplier": 3 },
+    { "year": 2026, "date": "2月17日", "multiplier": 3 },
+    { "year": 2026, "date": "2月18日", "multiplier": 3 },
+    { "year": 2026, "date": "2月19日", "multiplier": 3 },
+    { "year": 2026, "date": "4月4日", "multiplier": 3 },
+    { "year": 2026, "date": "5月1日", "multiplier": 3 },
+    { "year": 2026, "date": "6月19日", "multiplier": 3 },
+    { "year": 2026, "date": "9月25日", "multiplier": 3 },
+    { "year": 2026, "date": "10月1日", "multiplier": 3 },
+    { "year": 2026, "date": "10月2日", "multiplier": 3 },
+    { "year": 2026, "date": "10月3日", "multiplier": 3 }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "hire_date_field": "employee_master.hire_date",
+  "base_field": "employee_master.base_salary",
+  "high_income_cap": {
+    "enabled": true,
+    "mode": "previous_year_shanghai_average_monthly_wage",
+    "amount": null
+  },
+  "rules": [
+    { "service_min_years": 0, "service_max_years": 1, "within_6_months": 0.6, "over_6_months": 0.4 },
+    { "service_min_years": 1, "service_max_years": 2, "within_6_months": 0.6, "over_6_months": 0.5 },
+    { "service_min_years": 2, "service_max_years": 4, "within_6_months": 0.7, "over_6_months": 0.5 },
+    { "service_min_years": 4, "service_max_years": 6, "within_6_months": 0.8, "over_6_months": 0.6 },
+    { "service_min_years": 6, "service_max_years": 8, "within_6_months": 0.9, "over_6_months": 0.6 },
+    { "service_min_years": 8, "service_max_years": null, "within_6_months": 1, "over_6_months": 0.6 }
+  ]
+}
